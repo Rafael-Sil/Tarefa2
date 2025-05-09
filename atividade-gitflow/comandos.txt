@@ -17,3 +17,9 @@ $ git add texto.txt
 $ git commit -m "Resolvendo o conflito entre main e feature-1 no arquivo 'texto.txt'"
 $ git checkout -b add-comandos
 $ mkdir atividade-gitflow
+Criei o arquivo manualmente
+$ git add comandos.txt
+$ git commit -m "Mandando o arquivo de comandos"
+$ git remote add origin-atividade https://github.com/Rafael-Sil/Tarefa2.git
+$ git push origin-atividade main
+$ git push origin-atividade add-comandos
